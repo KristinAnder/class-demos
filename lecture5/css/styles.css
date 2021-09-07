@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    background-color: darkgreen;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Mobiles Styles */
+#container {
+    background-color: lightgreen;
+    margin: 10px;
+    border: 4px solid yellow;
+}
+
+header {
+    background-image: url("../images/gcourse1.jpg");
+    background-size: cover;
+    padding: 60px 0;
+}
+
+header h1 {
+    color: yellow;
+    text-shadow: cover;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: darkgreen;
+    color: yellow;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+nav, section, aside, .col, footer {
+    background-color: tan;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 4px solid darkgreen;
+}
+
+.button {
+    display: block;
+    background-color: darkgreen;
+    color: yellow;
+    height: 40px;
+    width: 175px;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+nav li a:hover, .button:hover {
+    background-color: lightgreen;
+    text-shadow: 1px 1px 1px #000;
+}
+
+h2, h3 {
+    color: blue;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section img, aside img {
+    width: 65%;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    color: blue;
+}
+
+/* Tablet Styles */
+
+
+
+/* Desktop Styles */
